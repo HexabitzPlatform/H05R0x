@@ -6543,9 +6543,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="216.2722" y="14.2766" size="1.9304" layer="100" font="vector">Revision</text>
 <text x="216.45" y="4.9548" size="1.9304" layer="100" font="vector">Sheet   of</text>
 <text x="200.0162" y="19.2042" size="1.9304" layer="100" font="vector">Title</text>
-<text x="181.4742" y="19.2042" size="1.9304" layer="102" font="vector">H05R00</text>
+<text x="181.4742" y="19.2042" size="1.9304" layer="102" font="vector">H05R0</text>
 <text x="170.2728" y="10.7714" size="1.9304" layer="101" font="vector">1s Lipo charger w/ USB-C </text>
-<text x="206.8742" y="19.2042" size="1.9304" layer="101" font="vector">H05R00_Backend</text>
+<text x="206.8742" y="19.2042" size="1.9304" layer="101" font="vector">H05R0_Backend</text>
 <wire x1="169.46" y1="3.38" x2="169.46" y2="7.698" width="0.1524" layer="205"/>
 <wire x1="169.46" y1="7.698" x2="169.46" y2="17.858" width="0.1524" layer="205"/>
 <wire x1="169.46" y1="17.858" x2="169.46" y2="22.43" width="0.1524" layer="205"/>
@@ -6566,7 +6566,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="169.46" y1="7.698" x2="215.18" y2="7.698" width="0.1524" layer="205"/>
 <wire x1="231.69" y1="17.858" x2="231.69" y2="22.43" width="0.1524" layer="205"/>
 <text x="243.1962" y="5.7422" size="1.9304" layer="100" font="vector">www.hexabitz.com</text>
-<text x="182.7442" y="4.5992" size="1.9304" layer="101" font="vector">Ibrahim Zaeiter</text>
 <text x="254.635" y="142.24" size="1.778" layer="95">BOOT</text>
 </plain>
 <instances>
@@ -9501,9 +9500,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="216.2722" y="14.2766" size="1.9304" layer="100" font="vector">Revision</text>
 <text x="216.45" y="4.9548" size="1.9304" layer="100" font="vector">Sheet   of</text>
 <text x="200.0162" y="19.2042" size="1.9304" layer="100" font="vector">Title</text>
-<text x="181.4742" y="19.2042" size="1.9304" layer="102" font="vector">H05R00</text>
+<text x="181.4742" y="19.2042" size="1.9304" layer="102" font="vector">H05R0</text>
 <text x="170.2728" y="10.7714" size="1.9304" layer="101" font="vector">1s Lipo charger w/ USB-C </text>
-<text x="206.8742" y="19.2042" size="1.9304" layer="101" font="vector">H05R00_Frontend</text>
+<text x="206.8742" y="19.2042" size="1.9304" layer="101" font="vector">H05R0_Frontend</text>
 <wire x1="169.46" y1="3.38" x2="169.46" y2="7.698" width="0.1524" layer="205"/>
 <wire x1="169.46" y1="7.698" x2="169.46" y2="17.858" width="0.1524" layer="205"/>
 <wire x1="169.46" y1="17.858" x2="169.46" y2="22.43" width="0.1524" layer="205"/>
@@ -9524,7 +9523,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="169.46" y1="7.698" x2="215.18" y2="7.698" width="0.1524" layer="205"/>
 <wire x1="231.69" y1="17.858" x2="231.69" y2="22.43" width="0.1524" layer="205"/>
 <text x="243.1962" y="5.7422" size="1.9304" layer="100" font="vector">www.hexabitz.com</text>
-<text x="184.0142" y="4.5992" size="1.9304" layer="101" font="vector">Ibrahim Zaeiter</text>
+<text x="184.0142" y="4.5992" size="1.9304" layer="101" font="vector"></text>
 <text x="100.33" y="135.89" size="3.81" layer="101">Buck-Boost Converter</text>
 <text x="212.725" y="135.255" size="3.81" layer="101">LDO Regulator</text>
 <text x="219.71" y="55.88" size="3.81" layer="101" rot="MR0">Charge &amp; Discharge N-FET</text>
