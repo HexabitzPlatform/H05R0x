@@ -3431,7 +3431,7 @@ Source: &lt;a href="https://www.st.com/resource/en/datasheet/ld39200.pdf"&gt; Da
 <pad name="S4" x="-0.335" y="-4.32" drill="0.7" diameter="1.2" shape="long"/>
 <pad name="S3" x="-0.335" y="4.32" drill="0.7" diameter="1.2" shape="long"/>
 </package>
-<package name="1984617_MOD" urn="urn:adsk.eagle:footprint:43389156/1" locally_modified="yes" library_version="76" library_locally_modified="yes">
+<package name="1984617_MOD" urn="urn:adsk.eagle:footprint:43389156/2" library_version="78">
 <description>&lt;b&gt;1984617-3&lt;/b&gt;&lt;br&gt;
 </description>
 <pad name="2" x="3.5" y="0" drill="1.2" diameter="1.8"/>
@@ -3454,7 +3454,7 @@ Source: &lt;a href="https://www.st.com/resource/en/datasheet/ld39200.pdf"&gt; Da
 </package>
 </packages>
 <packages3d>
-<package3d name="CUI_UJC-HP-G-SMT-TR" urn="urn:adsk.eagle:package:41966640/3" type="model" library_version="48">
+<package3d name="CUI_UJC-HP-G-SMT-TR" urn="urn:adsk.eagle:package:41966640/4" type="empty" library_version="79">
 <packageinstances>
 <packageinstance name="CUI_UJC-HP-G-SMT-TR"/>
 </packageinstances>
@@ -3464,7 +3464,7 @@ Source: &lt;a href="https://www.st.com/resource/en/datasheet/ld39200.pdf"&gt; Da
 <packageinstance name="JST_B2B-PH-K-S(LF)(SN)"/>
 </packageinstances>
 </package3d>
-<package3d name="1984617_MOD" urn="urn:adsk.eagle:package:43389157/1" type="box" library_version="76" library_locally_modified="yes">
+<package3d name="1984617_MOD" urn="urn:adsk.eagle:package:43389157/3" type="model" library_version="78">
 <description>&lt;b&gt;1984617-3&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="1984617_MOD"/>
@@ -3558,7 +3558,7 @@ Source: &lt;a href="https://www.st.com/resource/en/datasheet/ld39200.pdf"&gt; Da
 </device>
 </devices>
 </deviceset>
-<deviceset name="UJC-HP-G-SMT-TR" urn="urn:adsk.eagle:component:41966641/3" prefix="J" library_version="48">
+<deviceset name="UJC-HP-G-SMT-TR" urn="urn:adsk.eagle:component:41966641/4" prefix="J" library_version="79">
 <description> &lt;a href="https://pricing.snapeda.com/parts/UJC-HP-G-SMT-TR/CUI%20Devices/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="UJC-HP-G-SMT-TR" x="0" y="0"/>
@@ -3571,7 +3571,7 @@ Source: &lt;a href="https://www.st.com/resource/en/datasheet/ld39200.pdf"&gt; Da
 <connect gate="G$1" pin="VBUS" pad="A4 A9 B4 B9"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:41966640/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:41966640/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -3603,7 +3603,7 @@ Source: &lt;a href="https://www.st.com/resource/en/datasheet/ld39200.pdf"&gt; Da
 </device>
 </devices>
 </deviceset>
-<deviceset name="1984617_MOD" urn="urn:adsk.eagle:component:43389158/2" prefix="J" library_version="76" library_locally_modified="yes">
+<deviceset name="1984617_MOD" urn="urn:adsk.eagle:component:43389158/4" prefix="J" library_version="78">
 <description>&lt;b&gt;PCB terminal block, Nominal current: 17.5 A, Nom. voltage: 200 V, Pitch: 3.5 mm, Number of positions: 2, Connection method: Screw connection with wire protector, Mounting: Wave soldering, Conductor/PCB connection direction: 0 , Color: green&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA17/1074867.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -3616,7 +3616,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:43389157/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43389157/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -4291,7 +4291,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY20" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" deviceset="VSSA" device=""/>
 <part name="SUPPLY10" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" deviceset="VSSA" device=""/>
 <part name="SUPPLY37" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" deviceset="VSSA" device=""/>
-<part name="USB_C" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" deviceset="UJC-HP-G-SMT-TR" device="" package3d_urn="urn:adsk.eagle:package:41966640/3"/>
+<part name="USB_C" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" deviceset="UJC-HP-G-SMT-TR" device="" package3d_urn="urn:adsk.eagle:package:41966640/4"/>
 <part name="SUPPLY38" library="supply2" deviceset="VBAT" device=""/>
 <part name="C16" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="C-0603" device="" package3d_urn="urn:adsk.eagle:package:19666468/3" value="22pF">
 <attribute name="STATE" value="DNP"/>
@@ -4309,7 +4309,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </part>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="R24" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R-0603" device="" package3d_urn="urn:adsk.eagle:package:1435818/6" value="270R"/>
-<part name="J1" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" deviceset="1984617_MOD" device="" package3d_urn="urn:adsk.eagle:package:43389157/1"/>
+<part name="J1" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" deviceset="1984617_MOD" device="" package3d_urn="urn:adsk.eagle:package:43389157/3"/>
 </parts>
 <sheets>
 <sheet>
